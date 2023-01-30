@@ -28,6 +28,7 @@ body{
 }
 .img img{
     width: 500px;
+    margin-right: auto;
 }
 .login-container{
     display: flex;
@@ -36,6 +37,7 @@ body{
 }
 form{
     width: 360px;
+    margin-left: auto;
 }
 .avtar{
     width: 100px;
@@ -60,7 +62,7 @@ form h2{
     bottom: -2px;
     width: 50%;
     height: 2px;
-    background-color: #5025ca;
+    background-color: #13f495;
     transition: 0.3s;
 }
 .input-div:after{
@@ -70,7 +72,7 @@ form h2{
     left: 50%;
 }
 .input-div.focus .i i{
-    color: #5025ca;
+    color: #13f495;
 }
 .input-div.focus div h5{
     top: -5px;
@@ -130,7 +132,7 @@ a{
     transition: 0.3s;
 }
 a:hover{
-    color: #5025ca;
+    color: #13f495;
 }
 .btn{
     display: block;
@@ -146,8 +148,9 @@ a:hover{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     background-size: 200%;
-    background-image: linear-gradient(to right, #5025ca, #5045ca, #5070ca);
+    background-image: linear-gradient(to right, #13f495, #13f470, #13f425);
     transition: 0.5s;
+    box-shadow: 0px 2px 18px #e5f0e6;
 }
 .btn:hover{
     background-position: right;
@@ -182,5 +185,6 @@ a:hover{
     }
     .login-container{
         justify-content: center;
+        margin: auto;
     }
 }
